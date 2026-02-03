@@ -74,6 +74,21 @@ const backEnd = ["nodejs","expressjs","mongodb"]
 const database = ["sql","mysql","oracle"]
 const frameWork = ["reactjs","angular","vuejs"]
 
+
+
+console.log(frontEnd[0]) 
+console.log(backEnd[2])
+
+console.log(frontEnd[1], backEnd[2])
+
+const dummy = frontEnd.concat(database)
+
+console.log(dummy)
+
+const task = [ ["html","css","js"], ["sql","mysql","oracle"]]
+
+console.log(task[0][0], task[1][1])
+
 // task 
 
 // fullstack = html, css, js, nodejs, reactjs, sql
@@ -84,16 +99,3 @@ const frameWork = ["reactjs","angular","vuejs"]
 
 //dummy2 = css,vuejs, mongodb, sql
 
-
-console.log(frontEnd[1]) 
-console.log(backEnd[2])
-
-console.log(frontEnd[1], backEnd[2])
-
-const dummy = frontEnd.concat(database)
-
-console.log(dummy)
-
-const task = [frontEnd, database]
-
-console.log(task[0][0], task[1][1])
