@@ -57,3 +57,4 @@ const company = (val) => {
 
 console.log(company("infOTECH"))
 
+// aray, object, class fuction, dom
